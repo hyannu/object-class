@@ -53,9 +53,10 @@ let engObj = new Engineer("Archana Rao");
 // constructor
 
 class ToyotaCar {
-    constructor(brand) {
+    constructor(brand,mileage) {
         console.log("creating new object");
     this.brand = brand;
+    this.mileage = mileage;
     }
     start() {
         console.log("start");
@@ -63,10 +64,8 @@ class ToyotaCar {
 stop() {
     console.log("stop");
 }
-setBrand(brand) {
-    this .brand = brand;
 }
-}
-let fortuner = new ToyotaCar("fortuner");//constructor
-
+let fortuner = new ToyotaCar("fortuner",10);//constructor
+console.log(fortuner);
 let lexus = new ToyotaCar();
+console.log(lexus);
