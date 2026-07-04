@@ -8,7 +8,6 @@
     */
 
 
-
 /*class Person {
     constructor (name) {
         console.log("enter parent constructor");
@@ -52,7 +51,7 @@ let engObj = new Engineer("Archana Rao");
 
 // constructor
 
-class ToyotaCar {
+/*class ToyotaCar {
     constructor(brand,mileage) {
         console.log("creating new object");
     this.brand = brand;
@@ -68,4 +67,50 @@ stop() {
 let fortuner = new ToyotaCar("fortuner",10);//constructor
 console.log(fortuner);
 let lexus = new ToyotaCar();
-console.log(lexus);
+console.log(lexus); */
+
+
+//INHERITANCE
+
+/*class Parent {
+    hello() {
+        console.log("hello");
+    }
+}
+class Child extends Parent{}
+let obj = new Child();
+*/
+
+class Person {
+    constructor() {
+        this.species = "homo sapiens";
+    }
+
+    eat () {
+        console.log("eat");
+    }
+
+    sleep() {
+        console.log("sleep");
+    }
+
+Worker() {
+    console.log("do nothing");
+}
+}
+
+class Engineer extends Person {
+    Worker() {
+        console.log("solve problem, build something");
+    }
+}
+
+ class Doctor extends Person {
+    work(){
+        console.log("treat patients");
+    }
+ }
+ let archanaraoObj = new Engineer();
+ archanaraoObj.eat();//eat
+ archanaraoObj.sleep();//sleep
+ archanaraoObj.Worker();//solve problem,build something
