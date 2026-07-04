@@ -9,7 +9,7 @@
 
 
 
-class Person {
+/*class Person {
     constructor (name) {
         console.log("enter parent constructor");
         this.species = "homo sapiens";
@@ -31,4 +31,20 @@ class Engineer extends Person {
 }
 
 let engObj = new Engineer("Archana Rao");
+*/
 
+class ToyotaCar {
+    start() {
+        console.log("start");
+    }
+stop() {
+    console.log("stop");
+}
+setBrand(brand) {
+    this .brandName = brand;
+}
+}
+let fortuner = new ToyotaCar();
+fortuner.setBrand("fortuner");
+let lexus = new ToyotaCar();
+lexus.setBrand("fortuner");
