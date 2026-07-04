@@ -137,3 +137,31 @@ class Engineer extends Person {
 
 
 
+let data ="secret information";
+ class User {
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+    }
+ 
+
+ viewData(){
+    console.log("data= ",data);
+ }
+}
+class Admin extends User {
+    constructor(name,email) {
+        super(name,email);
+    }
+    editData(){
+        data="some new value";
+    }
+}
+
+let student1 = new User(" archana rao", "abcd@gmail.com");
+let student2 = new User("deepakrao", "deeo@gmail.com");
+
+let teacher1 = new User("Dean","deen@gmail.com");
+
+
+
