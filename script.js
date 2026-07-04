@@ -33,7 +33,30 @@ class Engineer extends Person {
 let engObj = new Engineer("Archana Rao");
 */
 
+// class ToyotaCar {
+//     start() {
+//         console.log("start");
+//     }
+// stop() {
+//     console.log("stop");
+// }
+// setBrand(brand) {
+//     this .brandName = brand;
+// }
+// }
+// let fortuner = new ToyotaCar();
+// fortuner.setBrand("fortuner");
+// let lexus = new ToyotaCar();
+// lexus.setBrand("fortuner");
+
+
+// constructor
+
 class ToyotaCar {
+    constructor(brand) {
+        console.log("creating new object");
+    this.brand = brand;
+    }
     start() {
         console.log("start");
     }
@@ -41,10 +64,9 @@ stop() {
     console.log("stop");
 }
 setBrand(brand) {
-    this .brandName = brand;
+    this .brand = brand;
 }
 }
-let fortuner = new ToyotaCar();
-fortuner.setBrand("fortuner");
+let fortuner = new ToyotaCar("fortuner");//constructor
+
 let lexus = new ToyotaCar();
-lexus.setBrand("fortuner");
