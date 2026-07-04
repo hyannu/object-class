@@ -81,7 +81,7 @@ class Child extends Parent{}
 let obj = new Child();
 */
 
-class Person {
+/*class Person {
     constructor() {
         this.species = "homo sapiens";
     }
@@ -114,4 +114,26 @@ class Engineer extends Person {
  archanaraoObj.eat();//eat
  archanaraoObj.sleep();//sleep
  archanaraoObj.Worker();//solve problem,build something
-  
+  */
+
+// let data ="secret information";
+//  class User {
+//     constructor(name, email){
+//         this.name = name;
+//         this.email = email;
+//     }
+ 
+
+//  viewData(){
+//     console.log("data= ",data);
+//  }
+// }
+
+// let student1 = new User(" archana rao", "abcd@gmail.com");
+// let student2 = new User("deepakrao", "deeo@gmail.com");
+
+// let teacher1 = new User("Dean","deen@gmail.com");
+
+
+
+
