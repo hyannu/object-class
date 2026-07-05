@@ -137,7 +137,7 @@ class Engineer extends Person {
 
 
 
-let data ="secret information";
+/*let data ="secret information";
  class User {
     constructor(name, email){
         this.name = name;
@@ -163,5 +163,29 @@ let student2 = new User("deepakrao", "deeo@gmail.com");
 
 let teacher1 = new User("Dean","deen@gmail.com");
 
+*/
 
+//Error handling
+
+
+let a = 5;
+let b = 10;
+console.log("a =", a);
+console.log("b=",b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+try{
+console.log("a+b = ", a+c);//error 
+}catch(err){
+console.log(err);
+}
+
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
+console.log("a+b = ", a+b);
 
