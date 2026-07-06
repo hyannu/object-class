@@ -53,7 +53,7 @@ if(age >= 18) {
 }console.log(str);
 */
 
-function getData(dataId, getNextData) {
+/*function getData(dataId, getNextData) {
     //2second
     setTimeout(() => {
         console.log("data", dataId);
@@ -74,3 +74,33 @@ getData(1, () => {
 
     });
 });
+*/
+
+//permises
+let permise  = new Promise((resolve, reject) =>{
+    console.log("I am a promise");
+    // resolve("success");
+    reject("sum error");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
