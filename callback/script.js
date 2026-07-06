@@ -25,9 +25,20 @@ calculator(1,2,(a,b) =>{
 });
 */
 
-const hello = () =>{
+/*const hello = () =>{
     console.log("hello");
 };
 setTimeout(hello,3000);
+*/
 
 
+//nesting key word
+ 
+let age = 19;
+if(age >= 18) {
+    if(age >= 60){
+        console.log("senior");
+    }
+}else {
+    console.log("child");
+}
