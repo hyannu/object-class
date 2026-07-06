@@ -43,4 +43,31 @@ if(age >= 18) {
     console.log("child");
 }*/
 
+// nested loops
 
+/*for(let i = 0; i<5; i++){
+    let str ="";
+    for(let j = 0; j<5; j++){
+      str=str+1;
+    }
+}console.log(str);
+*/
+
+function getData(dataId, getNextData) {
+    //2second
+    setTimeout(() => {
+        console.log("data", dataId);
+        if (getNextData) {
+            getNextData();
+        }
+    },2000);
+}
+    
+getData(1, () => {
+    getData(2, () => {
+    getData(3, () =>{
+        getData(4);
+    })
+
+    });
+});
